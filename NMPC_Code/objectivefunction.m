@@ -13,8 +13,7 @@ ug = temp ;
 
 [c,ceq] = nonlinearcons(x);
 
-y = sum(abs( target - s(1,:) )) + 2 * abs( target(end) - s(1,end) ) + sum(max(c,0)) ;
-% y = y + sum(abs( SOCRef - s(2,:) )) + 2 * abs( SOCRef(end) - s(2,end) ) ;
+y;
 
 
 end
